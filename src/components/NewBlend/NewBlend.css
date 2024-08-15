@@ -1,0 +1,143 @@
+.bg_img_m_div{
+    position: relative;
+}
+
+.bg_img_m_div::before{
+    content: "";
+    background-image: url("../../Img/coffee_blast.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: absolute;
+    top: -40rem;
+    left: 0;
+    width: 30%;
+    background-position: center;
+    z-index: -999;
+}
+.bg_img_m_div::after{
+    content: "";
+    background-image: url("../../Img/coffee_blast\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 0;
+    bottom: -50rem;
+    width: 30%;
+    background-position: center;
+    z-index: -999;
+}
+
+
+.h-text-nb{
+    font-family: Playfair Display;
+font-size: 3.375rem ;
+font-weight: 700;
+/* line-height: 71.98px; */
+text-align: center;
+color: rgba(96, 56, 9, 1);
+}
+
+
+.text-nb{
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+color: rgba(112, 112, 112, 1);    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    body {
+        .h-text-nb{
+            text-align: left;
+           } 
+
+           .text-nb{
+            text-align: left;
+           }
+           .div_item_center{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+           }
+           .div_item_center p{
+           width: 90%;
+            
+           }
+    }
+    .bg_img_m_div::after{
+        bottom: -35rem;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+       .h-text-nb{
+        text-align: left;
+       }
+
+       .text-nb{
+        text-align: left;
+       }
+
+       .div_item_center{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+       }
+       .div_item_center p{
+       width: 90%;
+        
+       }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+       
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+       .h-text-nb{
+        font-size: 5.375rem ;
+       }
+    }
+    .bg_img_m_div::after{
+        bottom: -50rem;
+    }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+       
+    }.h-text-nb{
+        font-size: 5.375rem ;
+    }
+
+    .bg_img_m_div::after{
+        bottom: -50rem;
+    }
+}

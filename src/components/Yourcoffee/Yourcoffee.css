@@ -1,0 +1,84 @@
+.yc-h-text{
+    font-family: Playfair Display;
+font-size: 54px;
+font-weight: 700;
+text-align: left;
+color: rgba(96, 56, 9, 1);
+}
+
+.yc-text-1{
+    font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+color: rgba(112, 112, 112, 1);
+}
+
+
+
+.yc-text-2{
+    font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 26.66px;
+text-align: center;
+color: rgba(112, 112, 112, 1);
+}
+
+
+.yc-text-3{
+    font-family: Playfair Display;
+font-size: 30px;
+font-weight: 700;
+line-height: 39.99px;
+text-align: center;
+color: rgba(96, 56, 9, 1);
+
+}
+
+
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .yc-h-text{
+        font-size: 30px;
+    }
+    .yc-text-1{
+        font-size: 16px;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .yc-h-text{
+        font-size: 30px;
+    }  
+    .yc-text-1{
+        font-size: 16px;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .yc-h-text{
+        font-size: 30px;
+    }  
+    .yc-text-1{
+        font-size: 16px;
+    } 
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .yc-h-text{
+text-align: center;
+
+    }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+     .yc-h-text{
+       text-align: center;
+       
+    }
+}

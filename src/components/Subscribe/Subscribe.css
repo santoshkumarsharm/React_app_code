@@ -1,0 +1,133 @@
+.bottom_img{
+    background-image: url("../../Img/bottom.png");
+   height: 50vh;
+   background-repeat: no-repeat;
+   margin-top: 50px;
+   background-size: 100% 100%;
+   background-position: center;
+   display: grid;
+   place-items: center;
+   position: relative;
+}
+
+.bottom_img::before{
+    content: "";
+    background-image: url("../../Img/pngwing 1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    position: absolute;
+    bottom: -10rem ;
+    left: 0;
+    width: 20%;
+    background-position: center;
+    z-index: 0;
+}
+.bottom_img::after{
+    content: "";
+    background-image: url("../../Img/pngwing 2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    position: absolute;
+    bottom: -10rem ;
+    right: 0;
+    width: 20%;
+    background-position: center;
+    z-index: 0;
+}
+
+
+
+.bt_h_text{
+    font-family: Playfair Display;
+font-size: 54px;
+font-weight: 700;
+/* line-height: 71.98px; */
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+
+.bt_text{
+    font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+z-index: 9999;
+}
+
+.inp_text{
+    width: 40vw;
+    height: 9vh;
+}
+
+.btn_h{
+    height: 9vh;
+    background: rgba(249, 192, 106, 1);
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.33px;
+    text-align: left;
+color: rgba(96, 56, 9, 1);    
+padding: 0 50px;
+}
+
+.form-control::placeholder{
+    color: rgba(0, 0, 0, 0.34);
+    font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+padding-left: 20px;
+
+}
+
+.div_inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .btn_h{
+        padding: 0 10px;
+    }
+   .bottom_img{
+    background-size: cover;
+   }
+   .bt_h_text{
+    font-size: 32px;
+   }
+   .inp_text{
+    width: 80vw;
+   }
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+   .bottom_img{
+    background-size: cover;
+   }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+   .bottom_img{
+    background-size: cover;
+   }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+ 
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  
+}

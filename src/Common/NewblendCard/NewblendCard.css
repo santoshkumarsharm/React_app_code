@@ -1,0 +1,58 @@
+.New_b_card{
+    background-color: rgba(255, 249, 241, 1);
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    position: relative;
+}
+
+
+.n-c-text-1{
+    font-family: Playfair Display;
+font-size: 22px;
+font-weight: 700;
+line-height: 29.33px;
+text-align: center;
+color: rgba(96, 56, 9, 1);
+}
+
+.n-c-text-2{
+    font-family: Playfair Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.33px;
+text-align: center;
+color: rgba(30, 30, 30, 1);
+}
+
+.n-c-text-3{
+    font-family: Playfair Display;
+font-size: 18px;
+font-weight: 700;
+line-height: 23.99px;
+text-align: center;
+color: rgba(96, 56, 9, 1);
+}
+
+.btn-div{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+   .New_b_card{
+margin-bottom: 50px;
+   }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+   .New_b_card{
+    margin-bottom: 50px;
+   }
+}

@@ -1,0 +1,172 @@
+.feed-h-text{
+    font-family: Playfair Display;
+font-size: 54px;
+font-weight: 700;
+text-align: center;
+color: rgba(96, 56, 9, 1);
+}
+
+.feed-text1{
+    font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+text-align: center;
+color: rgba(112, 112, 112, 1);
+}
+
+
+.fed_card_des{
+    font-family: Playfair Display;
+font-size: 18px;
+font-weight: 600;
+line-height: 36px;
+text-align: center;
+color: rgba(112, 112, 112, 1);
+margin-top: 30px;
+}
+
+.feed_card_name{
+    font-family: Playfair Display;
+font-size: 32px;
+font-weight: 700;
+line-height: 42.66px;
+text-align: center;
+color: rgba(96, 56, 9, 1);
+}
+
+.feed_card_pos{
+    font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+text-align: center;
+color: rgba(112, 112, 112, 1);
+}
+
+.card-bg-feed{
+    background: rgba(255, 249, 241, 1);
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    
+}
+
+.slid-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.slid_btn_css{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.img_po{
+ position: relative;
+ width: 100%;
+ top: 100px;
+}
+
+.siwper_fff{
+    padding: 100px 0px;
+}
+
+.bg_img_feed{
+    position: relative;
+}
+.bg_img_feed::before{
+    content: "";
+    background-image: url("../../Img/coffee_blast (2).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: -20rem;
+    width: 30%;
+    background-position: center;
+    z-index: 999;
+}
+.bg_img_feed::after{
+    content: "";
+    background-image: url("../../Img/coffee_blast\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 0;
+    top: -10rem;
+    width: 30%;
+    background-position: center;
+    z-index: 999;
+}
+
+
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+   .feed-h-text{
+    font-size: 34px;
+   }
+   .slid_btn_css{
+    margin-top: 500px;
+   }
+.fed_card_des{
+    font-size: 16px;
+}
+   
+   
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+   .feed-h-text{
+    font-size: 42px;
+   }
+   .slid_btn_css{
+    margin-top: 500px;
+   }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slid_btn_css{
+        margin-top: 500px;
+       } 
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .custom-prev-button{
+        margin-left: -20px;
+    }
+    .custom-next-button{
+        margin-left: 1090px;
+    }
+   
+.card_sp{
+    padding: 100px;
+}
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+   .custom-prev-button{
+    margin-left: -20px;
+   }
+   .custom-next-button{
+    margin-left: 1090px;
+}
+
+.card_sp{
+    padding: 0 100px;
+}
+}

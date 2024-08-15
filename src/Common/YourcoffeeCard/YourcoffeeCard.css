@@ -1,0 +1,28 @@
+.card_style1{
+    background: rgba(255, 238, 216, 1);
+    border: none;
+
+}
+
+.card_style2{
+    background: rgba(255, 249, 241, 1);
+    border: 1px solid rgba(249, 192, 106, 0.42)
+}
+
+.ycc-h-text{
+    font-family: Playfair Display;
+font-size: 28px;
+font-weight: 700;
+line-height: 37.32px;
+text-align: center;
+color: rgba(96, 56, 9, 1);
+
+}
+.ycc-text{
+    font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 26.66px;
+text-align: center;
+color: rgba(112, 112, 112, 1);
+}

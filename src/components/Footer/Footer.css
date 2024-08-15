@@ -1,0 +1,91 @@
+.foo_bg_img{
+    
+    background-image: linear-gradient(to top, rgba(68, 40, 8, 0.7) 10%, rgba(68, 40, 8, 1) 100%), url("../../Img/fotter_image.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    background-position: center;
+    position: relative;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_text{
+    font-family: Clicker Script;
+font-size: 54px;
+font-weight: 400;
+line-height: 71.32px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+
+
+.footar_text_1{
+    font-family: Playfair Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+
+.link_h{
+    font-family: Playfair Display;
+font-size: 26px;
+font-weight: 700;
+line-height: 34.66px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+
+.link_div a{
+    font-family: Playfair Display;
+font-size: 18px;
+font-weight: 400;
+line-height: 42px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+}
+
+
+
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+           .foo_bg_img{
+            background-size: cover;
+           }
+           .link_div{
+            margin-top: 40px;
+           }
+           .navbar-collapse{
+            margin-top: 20px;
+           }
+        }
+
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+           .foo_bg_img{
+            background-size: cover;
+           }
+        }
+
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px) {
+           .foo_bg_img{
+            background-size: cover;
+           }
+        }
+
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px) {
+           
+        }
+
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+           
+        }

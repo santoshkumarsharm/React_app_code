@@ -1,0 +1,40 @@
+.bg-img-gm{
+    margin-bottom: 50px;
+    margin-top: 60px;
+    background-image: linear-gradient( rgba(96, 56, 9, 0.8), rgba(96, 56, 9, 0.8)), url("../../Img//copybg.png");
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
+
+.bg-img-gm::before{
+   content: "";
+   background-image: url("../../Img/coffee_bean.png");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   min-height: 80vh;
+   position: absolute;
+   bottom: 0 ;
+   right: 0;
+   width: 50%;
+   background-position: center;
+   z-index: 0;
+}
+
+.img_index{
+   z-index: 9999  ;
+}
+@media (max-width: 480px) {
+   .bg-img-gm{
+    background-size: cover;
+   }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+   .bg-img-gm{
+    background-size: cover;
+   }
+}
