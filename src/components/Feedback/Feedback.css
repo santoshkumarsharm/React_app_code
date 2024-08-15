@@ -69,9 +69,6 @@ color: rgba(112, 112, 112, 1);
     cursor: pointer;
 }
 
-.main_div_z{
-    
-}
 .img_po{
  position: relative;
  width: 100%;
@@ -96,7 +93,7 @@ color: rgba(112, 112, 112, 1);
     bottom: -20rem;
     width: 30%;
     background-position: center;
-    z-index: 999;
+    z-index: 5;
 }
 .bg_img_feed::after{
     content: "";
@@ -111,7 +108,7 @@ color: rgba(112, 112, 112, 1);
     top: -10rem;
     width: 30%;
     background-position: center;
-    z-index: 999;
+    z-index: 1;
 }
 
 

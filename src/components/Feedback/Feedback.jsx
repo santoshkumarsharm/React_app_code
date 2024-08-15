@@ -113,6 +113,7 @@ const Feedback = () => {
               prevEl: '.custom-prev-button',
               nextEl: '.custom-next-button'
             }}
+            lo
             modules={[Navigation]}
             className="mySwiper"
           >
