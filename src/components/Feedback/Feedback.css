@@ -65,9 +65,13 @@ color: rgba(112, 112, 112, 1);
     justify-content: space-between;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 999;
+    z-index: 999 !important;
+    cursor: pointer;
 }
 
+.main_div_z{
+    z-index: 9999999;
+}
 .img_po{
  position: relative;
  width: 100%;

@@ -106,7 +106,7 @@ const Feedback = () => {
           <p className="feed-text1">Our customers have amazing things to say about us</p>
         </div>
 
-        <div className='position-relative mt-5' >
+        <div className='position-relative mt-5 main_div_z' >
           <Swiper
             onSwiper={(swiper) => (swiperRef.current = swiper)} // Set swiper instance
             navigation={{
