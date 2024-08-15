@@ -6,8 +6,8 @@ import fc from "../../Img/fc.png"
 import tw from "../../Img/te.png"
 const Footer = () => {
   return (
-    <div className='foo_bg_img' >
-        <div className='container pt-5  mt-5' >
+    <div className='foo_bg_img pb-5' >
+        <div className='container pt-5  mt-5 pb-5' >
             <div className="row pt-5 mt-5">
                 <div className="col-lg-3 col-sm-12 col-md-12">
                     <div>
