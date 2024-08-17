@@ -12,8 +12,10 @@ import Yourcoffee from './components/Yourcoffee/Yourcoffee';
 function App() {
   return (
     <div>
-     <Header/>
+     <div style={{minHeight:"100vh"}} >
+    <Header/>
      <HeroData/>
+    </div>
      <HomeData1/>
      <NewBlend/>
      <Yourcoffee/>
