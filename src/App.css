@@ -2,3 +2,17 @@ body{
   background: rgba(255, 254, 252, 1);
 
 }
+
+
+.bg_img2{
+  min-height: 100vh;
+  
+  background-image: linear-gradient(89.82deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0) 87.45%), url("./Img/coffee_image.png");
+  background-size: 100% 100%;
+  z-index: -999;
+  background-repeat: no-repeat;
+  top: 0;
+  width: 100%;
+  background-position: center;
+  
+  }

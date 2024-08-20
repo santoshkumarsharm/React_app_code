@@ -1,7 +1,7 @@
 .bg_img{
     position: relative;
 }
-.bg_img::before{
+/* .bg_img::before{
 min-height: 100vh;
 content: "";
 min-height: 100vh;
@@ -14,7 +14,7 @@ top: 0;
 width: 100%;
 background-position: center;
 
-}
+} */
 
 .nav-img{
     height: 46px;

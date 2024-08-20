@@ -12,7 +12,7 @@ import Yourcoffee from './components/Yourcoffee/Yourcoffee';
 function App() {
   return (
     <div>
-     <div style={{minHeight:"100vh"}} >
+     <div className='bg_img2' style={{minHeight:"100vh"}} >
     <Header/>
      <HeroData/>
     </div>
