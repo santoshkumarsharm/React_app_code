@@ -20,7 +20,7 @@ const HeroData = () => {
                             for our customers.</p>
                     </div>
 
-                    <div className='mt-5 mb-3' >
+                    <div className='mt-5 mb-5' >
                         <MainBtn name={"Order Now"} />
                     </div>
                 </div>
